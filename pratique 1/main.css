@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+*/
+
+/*.cinzel-<uniquifier> {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+header{
+    padding: 16px 0;
+    background-image: linear-gradient(to left, #685699, #2e0953);
+    color: bisque;
+    
+}
+header , section h2, section h3, form button{
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+ h2 {
+    text-align: center;
+}
+body{
+    background-image: url(./images/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+body, input, textarea{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: seashell
+}
+header nav li{
+    display:inline-block;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: seashell;
+    text-decoration: none;
+}
+header nav ul img{
+    height: 45px;
+    padding-left: 15px;
+}
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section ul{
+    list-style-type: none;
+}
+.procons ul{
+    margin-bottom: 30px;
+    list-style-type: circle;
+}
+
+.procons ul li{
+    padding: 5px;
+}
+.procons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: large;
+    
+}
+iframe{
+    margin-bottom: 40px;
+}
+
+section .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 160px;
+}
+
+
+.sugerir h3{
+    margin-left:0;
+    margin-top: 0;
+}
+.sugerir textarea,input{
+    color: #2a0c49;
+}
+.sugerir textarea{
+    resize: none;
+}
+
+.sugerir{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 8px;
+    resize: none;
+
+}
+
+
+.container {
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+    }
